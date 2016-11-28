@@ -16,7 +16,6 @@ class Solution(object):
             if a == None:
                 end = True
                 break
-        print end
         if end == True:
             k = k % count
             a = head
